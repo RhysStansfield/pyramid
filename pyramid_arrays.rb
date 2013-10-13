@@ -11,7 +11,7 @@ def array(number)
   array = (1..number).map { |number| number = 1 }
 end
 
-
+=begin
 describe 'Pyramid of Arrays' do
   it 'Can create an array with three items if given the number three' do
     expect(pyramid(3)).to eq [1,1,1]
@@ -23,3 +23,8 @@ describe 'Pyramid of Arrays' do
     expect(pyramid(1)).to eq [1]
   end
 end
+=end
+
+p pyramid(1)
+p pyramid(2)
+p pyramid(3)

@@ -1,0 +1,1 @@
+require './pyramid_arrays.rb'
